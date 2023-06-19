@@ -22,18 +22,24 @@ body {
 
     .firmenname1 {
         background-color: transparent;
-        width: 50%;
-        height: 5%;
+        width: 80%;
+        height: auto;
         float: left;
         margin-left: 2%;
     }
 }
 
 .menueliste {
-    width: 20%;
-    height: 10%;
+    background-color: lawngreen;
+    width: 100%;
+    height: auto;
     float: left;
     text-align: left;
+}
+
+.home {
+    background-color: transparent;
+    
 }
 
 #suche {
@@ -59,7 +65,6 @@ a {
     padding: 10%;
 }
 
-
 @media (min-width:15em){
     .picshome {
         width: 50%;
@@ -67,7 +72,7 @@ a {
         float: center;
         padding-bottom: 1%;
         margin-left: 20%;
-        border-radius: 30%;
+        border-radius: 20%;
     }
 
     p {
