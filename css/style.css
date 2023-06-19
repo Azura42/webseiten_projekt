@@ -48,7 +48,6 @@ body {
     padding: 1%;
 }
 
-
 a {
     text-decoration: none;
     color: black;
@@ -86,6 +85,14 @@ a {
     float: left;     
 }
 
+#unten {
+    font-size: xx-small;
+    margin-left: 40%;
+}
+
+address {
+
+}
 
 .kontakte {
     width: auto;
