@@ -3,31 +3,42 @@ body {
     font-family: Georgia;
     font-size: medium;
     line-height: 150%;
-}
-.menueliste {
-    width: 100%;
-    height: 10%;
-    float: left;
+    padding-left: 2%;
 }
 
-.logo {
-    width: 10%;
+.img-fluid{
+    width: 20%;
     height: auto;
-    float: left;
-    border-radius: 20%;
 }
 
-.name_der_firma { 
-    background-color: transparent;
-    border-radius: 50%;
-    text-align: center;
-    width: 80%;
+@media (min-width:25em ){
+    .logo {
+        background-color: transparent;
+        width: 10%;
+        height: auto;
+        float: left;
+        border-radius: 20%;
+    }
+
+    .firmenname1 {
+        background-color: transparent;
+        width: 50%;
+        height: 5%;
+        float: left;
+        margin-left: 2%;
+    }
+}
+
+.menueliste {
+    width: 20%;
     height: 10%;
     float: left;
-    padding: 4%;
-    font-size: xx-large;
+    text-align: left;
 }
 
+#suche {
+    outline: black;
+}
 
 .menue {
     background-color: transparent;
@@ -43,167 +54,30 @@ a {
     color: black;
 }
 
-.home {
-    background-color: aqua;
-    outline: rgb(12, 151, 194);
-    outline-style: outset;
-    outline-width: 2px;
-    width: 10%;
-    height: auto;
-    float: left ;
-    border-radius: 5%;
-    font-size: xx-small;
-    text-align: center;
-    padding: 1%;
-    cursor: pointer;
-
+.dropdown-menu {
+    background-color: transparent;
+    border: none;
+    padding: 10%;
 }
 
-.home:hover {
-    background-color: rgb(43, 159, 226);
+
+@media (min-width:15em){
+    .picshome {
+        width: 50%;
+        height: auto;
+        float: center;
+        padding-bottom: 1%;
+        margin-left: 20%;
+        border-radius: 30%;
+    }
+
+    p {
+        width: auto;
+        height: 20%;
+        margin: 10%;
+    }
 }
 
-.leistungen {
-    background-color: aqua;
-    outline: rgb(12, 151, 194);
-    outline-style: outset;
-    outline-width: 2px;
-    width: 10%;
-    height: auto;
-    float: left;
-    border-radius: 5%;
-    font-size: xx-small;
-    text-align: center;
-    padding: 1%;
-    cursor: pointer;
-}
-
-.leistungen:hover {
-    background-color: rgb(43, 159, 226);
-}
-
-.bildergallerie {
-    background-color: aqua;
-    outline: rgb(12, 151, 194);
-    outline-style: outset;
-    outline-width: 2px;
-    width: 10%;
-    height: auto;
-    float: left;
-    border-radius: 5%;
-    font-size: xx-small;
-    text-align: center;
-    padding: 1%;
-    cursor: pointer;
-}
-
-.bildergallerie:hover {
-    background-color: rgb(43, 159, 226);
-}
-
-.stellenangebote {
-    background-color: aqua;
-    outline: rgb(12, 151, 194);
-    outline-style: outset;
-    outline-width: 2px;
-    width: 10%;
-    height: auto;
-    float: left;
-    border-radius: 5%;
-    font-size: xx-small;
-    text-align: center;
-    padding: 1%;
-    cursor: pointer;
-}
-
-.stellenangebote:hover {
-    background-color: rgb(43, 159, 226);
-}
-
-.kontakt_forumular {
-    background-color: aqua;
-    outline: rgb(12, 151, 194);
-    outline-style: outset;
-    outline-width: 2px;
-    width: 10%;
-    height: auto;
-    float: left;
-    border-radius: 5%;
-    font-size: xx-small;
-    text-align: center;
-    padding: 1%;
-    cursor: pointer;
-}
-
-.kontakt_forumular:hover {
-    background-color: rgb(43, 159, 226);
-}
-
-.links {
-    background-color: aqua;
-    outline: rgb(12, 151, 194);
-    outline-style: outset;
-    outline-width: 2px;
-    width: 10%;
-    height: auto;
-    float: left;
-    border-radius: 5%;
-    font-size: xx-small;
-    text-align: center;
-    padding: 1%;
-    cursor: pointer;
-}
-
-.links:hover {
-    background-color: rgb(43, 159, 226);
-}
-
-.datenschutz {
-    background-color: aqua;
-    outline: rgb(12, 151, 194);
-    outline-style: outset;
-    outline-width: 2px;
-    width: 10%;
-    height: auto;
-    float: left;
-    border-radius: 5%;
-    font-size: xx-small;
-    text-align: center;
-    padding: 1%;
-    cursor: pointer;
-}
-
-.datenschutz:hover {
-    background-color: rgb(43, 159, 226);
-}
-
-.impressum {
-    background-color: aqua;
-    outline: rgb(12, 151, 194);
-    outline-style: outset;
-    outline-width: 2px;
-    width: 10%;
-    height: auto;
-    float: left;
-    border-radius: 5%;
-    font-size: xx-small;
-    text-align: center;
-    padding: 1%;
-    cursor: pointer;
-}
-
-.impressum:hover {
-    background-color: rgb(43, 159, 226);
-}
-
-.pics {
-    width: 800%;
-    height: auto;
-    float: left;
-    padding-left: 10%;
-    padding-top: 2%;
-    padding-bottom: 4%;
-}
 
 .inhalt {
     background-color: transparent;
@@ -211,9 +85,7 @@ a {
     height: auto;
     float: left;     
 }
-p {
-    margin: 10%;
-}
+
 
 .kontakte {
     width: auto;
