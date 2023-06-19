@@ -43,7 +43,7 @@ a {
     color: black;
 }
 
-.menue1 {
+.home {
     background-color: aqua;
     outline: rgb(12, 151, 194);
     outline-style: outset;
@@ -59,11 +59,11 @@ a {
 
 }
 
-.menue1:hover {
+.home:hover {
     background-color: rgb(43, 159, 226);
 }
 
-.menue2 {
+.leistungen {
     background-color: aqua;
     outline: rgb(12, 151, 194);
     outline-style: outset;
@@ -78,11 +78,11 @@ a {
     cursor: pointer;
 }
 
-.menue2:hover {
+.leistungen:hover {
     background-color: rgb(43, 159, 226);
 }
 
-.menue3 {
+.bildergallerie {
     background-color: aqua;
     outline: rgb(12, 151, 194);
     outline-style: outset;
@@ -97,11 +97,11 @@ a {
     cursor: pointer;
 }
 
-.menue3:hover {
+.bildergallerie:hover {
     background-color: rgb(43, 159, 226);
 }
 
-.menue4 {
+.stellenangebote {
     background-color: aqua;
     outline: rgb(12, 151, 194);
     outline-style: outset;
@@ -116,11 +116,11 @@ a {
     cursor: pointer;
 }
 
-.menue4:hover {
+.stellenangebote:hover {
     background-color: rgb(43, 159, 226);
 }
 
-.menue5 {
+.kontakt_forumular {
     background-color: aqua;
     outline: rgb(12, 151, 194);
     outline-style: outset;
@@ -135,11 +135,11 @@ a {
     cursor: pointer;
 }
 
-.menue5:hover {
+.kontakt_forumular:hover {
     background-color: rgb(43, 159, 226);
 }
 
-.menue6 {
+.links {
     background-color: aqua;
     outline: rgb(12, 151, 194);
     outline-style: outset;
@@ -154,11 +154,11 @@ a {
     cursor: pointer;
 }
 
-.menue6:hover {
+.links:hover {
     background-color: rgb(43, 159, 226);
 }
 
-.menue7 {
+.datenschutz {
     background-color: aqua;
     outline: rgb(12, 151, 194);
     outline-style: outset;
@@ -173,11 +173,11 @@ a {
     cursor: pointer;
 }
 
-.menue7:hover {
+.datenschutz:hover {
     background-color: rgb(43, 159, 226);
 }
 
-.menue8 {
+.impressum {
     background-color: aqua;
     outline: rgb(12, 151, 194);
     outline-style: outset;
@@ -192,7 +192,7 @@ a {
     cursor: pointer;
 }
 
-.menue8:hover {
+.impressum:hover {
     background-color: rgb(43, 159, 226);
 }
 
