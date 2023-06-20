@@ -119,3 +119,8 @@ address {
     color: blue;
     text-decoration-line: underline;
 }
+
+/* für leistungen */
+ul {
+    margin-left: 5%;
+}
