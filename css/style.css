@@ -5,28 +5,23 @@ body {
     background-color: rgb(12, 137, 175);
     font-family: Georgia;
     font-size: medium;
-    line-height: 150%;
+    line-height: 1.5em;
     padding-left: 3em;
     margin-top: 5em;
 }
 
-.img-fluid{
-    width: 20%;
-    height: auto;
-}
-
-@media (min-width:5em ){
+@media (min-width: 5em){
     .bunner {
       margin-left: 1em;
     }
 
-    .logo {
-        background-color: transparent;
+    .img-fluid{
+      background-color: transparent;
         width: 10%;
         height: auto;
         float: left;
         margin-bottom: 2em;
-        border-radius: 1em
+        border-radius: 10%
     }
 
     .firmenname1 {
@@ -40,7 +35,7 @@ body {
     }
 }
 
-@media (min-width:50em){
+@media (min-width:40em){
   /* Menue style */
 
 nav {
@@ -124,27 +119,26 @@ nav {
     color: black;
   }
 
-
-  .picshome {
-    width: 50%;
-    height: auto;
-    float: left;
-    padding-bottom: 1%;
-    margin-left: 5%;
-    border-radius: 10%;
-  }
-
    /* Container Suche */
    #suche {
     outline: black;
   }
 }
 
-@media(min-width: 50em){
+@media(min-width: 40em){
+  .picshome {
+    width: 50em;
+    height: auto;
+    float: left;
+    padding-bottom: 1em;
+    margin-left: 0.8em;
+    border-radius: 10em;
+  }
+
     .text {
-        width: 50%;
+        width: 50em;
         height: auto;
-        margin: 5%;
+        margin: 0.8em;
     }
   }
 
@@ -158,8 +152,8 @@ nav {
 
 #unten {
     font-size: x-small;
-    margin-left: 40%;
-    margin-bottom: 5%;
+    margin-left: 40em;
+    margin-bottom: 5em;
 }
 
 @media (min-width: 20em){
