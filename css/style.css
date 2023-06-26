@@ -1,3 +1,4 @@
+@media (min-width: 20em){
 body {
     width: 100%;
     height: auto;
@@ -9,33 +10,34 @@ body {
     padding-left: 3em;
     margin-top: 5em;
 }
+}
 
 @media (min-width: 5em){
     .bunner {
-      margin-left: 1em;
+      margin-left: -0.5em;
     }
 
-    .img-fluid{
+    .logo{
       background-color: transparent;
-        width: 10%;
+        width: 6em;
         height: auto;
         float: left;
         margin-bottom: 2em;
-        border-radius: 10%
+        border-radius: 20px;
     }
 
     .firmenname1 {
         background-color: transparent;
-        width: 80%;
+        width: 100em;
         height: auto;
         float: left;
-        margin-left: 2%;
+        margin-left: 3em;
         margin-bottom: 1em;
-        font-size: x-large;
+        font-size: xx-large;
+        position: absolute;
     }
 }
 
-@media (min-width:40em){
   /* Menue style */
 
 nav {
@@ -43,15 +45,9 @@ nav {
 }
 
 .navbar-toggler {
-  margin-left: -0.5em;
+  margin-left: 4em;
 }
 
-.menueliste {
-    width: 100%;
-    height: auto;
-    float: left;
-    text-align: left;
-}
 
   .navbar-item {
     border-style: solid;
@@ -59,60 +55,73 @@ nav {
 
   .home {
     background-color: transparent;
-    margin-left: -1.8em;
-    margin-right: 2em;
+    
     border-radius: 20em;
+    padding-left: 1em;
+    padding-right: 2em;
+
   }
 
   .leistungen {
     background-color: transparent;
-    margin-left: -1.3em;
+    margin-left: -2em;
     margin-right: 2em;
+    padding-left: 3em;
   }
 
   .bildergallerie {
     background-color: transparent;
-    margin-left: -1.3em;
+    margin-left: -2em;
     margin-right: 2em;
+    padding-left: 3em;
   }
 
   .stellenangebote {
     background-color: transparent;
-    margin-left: -1.3em;
+    margin-left: -2em;
     margin-right: 2em;
+    padding-left: 3em;
   }
 
   .kontakt {
     background-color: transparent;
-    margin-left: -1.3em;
-    margin-right: 2em;
+    margin-left: -2em;
+    margin-right: 3em;
+    padding-left: 3em;
   }
-
-  .links {
-    background-color: transparent;
-    margin-left: -1.3em;
-    margin-right: 2em;
-  }
-
-  .datenschutz {
-    background-color: transparent;
-    margin-left: -1.3em;
-    margin-right: 2em;
-  }
-
-  .impressum {
-    background-color: transparent;
-    margin-left: -1.3em;
-    margin-right: 2em;
-  }
-
-  
 
   .dropdown-menu {
     background-color: transparent;
     border: none;
-    padding: 10%;
   }
+
+
+  .kontakt_adresse {
+    margin-left: 2.5em;
+  }
+
+
+  .links {
+    background-color: transparent;
+    margin-left: -2em;
+    margin-right: 2em;
+    padding-left: 3em;
+  }
+
+  .datenschutz {
+    background-color: transparent;
+    margin-left: -2em;
+    margin-right: 2em;
+    padding-left: 3em;
+  }
+
+  .impressum {
+    background-color: transparent;
+    margin-left: -2em;
+    margin-right: 2em;
+    padding-left: 3em;
+  }
+
 
   a {
     text-decoration: none;
@@ -120,10 +129,14 @@ nav {
   }
 
    /* Container Suche */
-   #suche {
+   #suche, .suche {
     outline: black;
+    margin-left: -0.2em;
   }
-}
+  .suchen {
+    margin-left: 7em;
+    padding-top: 2em;
+  }
 
 @media(min-width: 40em){
   .picshome {
@@ -131,14 +144,14 @@ nav {
     height: auto;
     float: left;
     padding-bottom: 1em;
-    margin-left: 0.8em;
+    margin-left: 6.8em;
     border-radius: 10em;
   }
 
     .text {
         width: 50em;
         height: auto;
-        margin: 0.8em;
+        margin-left: 7em;
     }
   }
 
@@ -151,9 +164,9 @@ nav {
 }
 
 #unten {
-    font-size: x-small;
+    font-size: large;
     margin-left: 40em;
-    margin-bottom: 5em;
+    line-height: 5em;
 }
 
 @media (min-width: 20em){
@@ -161,7 +174,8 @@ nav {
       font-size: xx-small;
       font-weight: lighter;
       line-height: 1.5em;
-      margin-left: 3em;
+      margin-left: 13em;
+      padding-top: 5em;
   }
 }
 
@@ -189,9 +203,13 @@ ul {
 * {
     box-sizing: border-box;
   }
+
+  .row {
+    padding-left: 7em;
+  }
   
   .row > .column {
-    padding: 2%;
+    padding: 1em;
   }
   
   .row:after {
@@ -202,8 +220,8 @@ ul {
   
   .column {
     float: left;
-    width: 25%;
-    margin-bottom: 5%;
+    width: 25em;
+    margin-bottom: 2em;
   }
   
   /* The Modal (background) */
@@ -211,7 +229,7 @@ ul {
     display: none;
     position: fixed;
     z-index: 1;
-    padding-top: 100px;
+    padding-top: 10em;
     left: 0;
     top: 0;
     width: 100%;
@@ -226,8 +244,8 @@ ul {
     background-color: #1a1414;
     margin: auto;
     padding: 0;
-    width: 90%;
-    max-width: 1200px;
+    width: 50em;
+    max-width: 70em;
   }
   
   /* The Close Button */
@@ -260,10 +278,10 @@ ul {
   .next {
     cursor: pointer;
     position: absolute;
-    top: 30%;
+    top: 20em;
     width: auto;
-    padding: 6%;
-    margin-top: -30%;
+    padding: 2em;
+    margin-top: -20em;
     color: black;
     font-weight: bold;
     font-size: 20px;
@@ -296,12 +314,13 @@ ul {
   
   img {
     margin-bottom: 0%;
+    border-radius: 2em;
   }
   
   .caption-container {
     text-align: center;
     background-color: black;
-    padding: 2px 16px;
+    padding: 2em 16em;
     color: white;
   }
   
@@ -322,12 +341,21 @@ ul {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   /* stellenangebote */
+  .picsstelle{
+    width: 50em;
+    height: auto;
+    border-radius: 2em;
+  }
 
   /* kontakte */
   .map{
-    width: 50%;
-    height: 100%;
+    width: 60em;
+    height: 50em;
     border-radius: 2em;
+  }
+
+  h3, h2 {
+    line-height: 2em;
   }
 
   /* kontaktformular */
@@ -341,11 +369,19 @@ ul {
       margin-top: -0.5em;
       margin-bottom: 2em;
       margin-left: 0.3em;
-
     }
 
   }
   /* Links */
+  .verlinkung {
+    text-decoration: underline;
+    color: blue; 
+  }
+
+  .ueberschriftabstend {
+    line-height: 5em;
+    margin-bottom: -1.5em;
+  }
 
   /* Datenschutz */
 
