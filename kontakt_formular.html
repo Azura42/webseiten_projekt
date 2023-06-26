@@ -17,8 +17,8 @@
 
 <body id="top">
   <header>
-    <div class="row justify-content-left align-items-center g-2">
-                <img class="logo img-fluid rounded" src="pics/logo.png" alt="Es ist das Logo von der Diakonie zu sehen">
+    <div class="row justify-content-left align-items-center g-2 bunner">
+                <img class="logo img-fluid " src="pics/logo.jpg" alt="Es ist das Logo von der Diakonie zu sehen">
                 <div class="firmenname1"> Zweckverband Sozial-Diakoniestation Oberes Gäu </div>
     </div>
     <nav class="navbar navbar-expand-lg">
@@ -43,9 +43,9 @@
                             <a class="stellenangebote" href="stellenangebote.html"><button class="home hidden-lg-up">Stellenangebote</button></a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="kontakt_formular" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><button class="home hidden-lg-up">Kontakt</button></a>
+                            <a class="kontakt" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><button class="home hidden-lg-up">Kontakt</button></a>
                             <div class="dropdown-menu" aria-labelledby="dropdownId">
-                                <a class="kontakt" href="kontakt.html">Kontakt</a></br>
+                                <a class="kontakt_adresse" href="kontakt.html">Kontakt</a></br>
                                 <a class="kontakt_formular" href="kontakt_formular.html">Kontakt Formular</a>
                             </div> 
                         </li>
@@ -75,17 +75,38 @@
       </nav>
   </header>
   <main>
-    <div class="inhalt">
+    <!-- <div class="inhalt">
+      <form method="GET" action="kontakt_formular.html">
         <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Emailadresse</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@domain.de">
+            <label for="emailAddress" class="form-label">Emailadresse</label>
+            <input type="email" class="form-control" id="emailAddress" placeholder="name@domain.de">
           </div>
           <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label">Texteingabe</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            <button onclick="myFunction()">Senden</button>
+            <input class="form-control" id="nachricht" rows="3"></input>
+            <button type="submit" >Senden</button>
           </div>
-    </div>
+    </div> -->
+
+    <div class="container kontakt_formular">
+      <h1>Kontaktformular</h1>
+      <form>
+        <div class="form-group feld_gruppe">
+          <label for="name">Name:</label>
+          <input type="text" class="form-control" id="name" required>
+        </div>
+        
+        <div class="form-group feld_gruppe">
+          <label for="email">E-Mail:</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        
+        <div class="form-group feld_gruppe">
+          <label for="message">Nachricht:</label>
+          <textarea class="form-control" id="message" required></textarea>
+        </div>
+        
+        <button type="button" class="btn btn-outline-dark absenden" onclick="showAlert()">Absenden</button>
   </main>
   <footer>   
     <address>
@@ -106,16 +127,20 @@
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
   </script>
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
   </script>
+  <!-- Kontakt Formular -->
   <script>
-    function myFunction() {
-      alert();
+    function showAlert() {
+      var name = document.getElementById("name").value;
+      var email = document.getElementById("email").value;
+      var message = document.getElementById("message").value;
+
+      var alertText = "Name: " + name + "\nEmail: " + email + "\nNachricht: " + message;
+      alert(alertText);
     }
-    </script>
-  </div>
+  </script>
 </body>
 
 </html>
