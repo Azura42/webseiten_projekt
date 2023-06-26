@@ -386,6 +386,9 @@ ul {
   /* Datenschutz */
 
   /* Impressum */
+  .impressumdaten{
+    padding: -5em;
+  }
 
   /* Druckansicht */
   @media print {
