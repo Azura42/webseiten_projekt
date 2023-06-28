@@ -1,15 +1,33 @@
-@media (min-width: 20em){
-body {
+@media (max-width: 800em){
+  body {
+      width: 100%;
+      height: auto;
+      float: left;
+      background-color: rgb(14, 44, 53);
+      font-family: Georgia;
+      font-size: medium;
+      line-height: 1.5em;
+      padding-left: 3em;
+      margin-top: 5em;
+      color: rgb(187, 183, 183);
+  }
+
+  header {
     width: 100%;
-    height: auto;
-    float: left;
-    background-color: rgb(12, 137, 175);
-    font-family: Georgia;
-    font-size: medium;
-    line-height: 1.5em;
-    padding-left: 3em;
-    margin-top: 5em;
-}
+    height: 30%;
+  }
+
+  main {
+    background-color: blueviolet;
+    width: 100%;
+    height: 60%;
+  }
+
+  footer {
+    width: 100%;
+    height: 10%;
+    padding-top: 50%;
+  }
 }
 
 @media (min-width: 5em){
@@ -40,54 +58,65 @@ body {
 
   /* Menue style */
 
-nav {
-  margin-left: 1em;
-}
+  nav {
+    margin-left: 1em;
+  }
 
-.navbar-toggler {
-  margin-left: 4em;
-}
-
+  .navbar-toggler {
+    width: 7em;
+    height: 3em;
+    margin-left: 4em;
+  }
 
   .navbar-item {
     border-style: solid;
   }
 
   .home {
+    width: 9em;
+    height: 3em;
     background-color: transparent;
-    
     border-radius: 20em;
-    padding-left: 1em;
-    padding-right: 2em;
-
+    padding-left: 0.7em;
+    padding-right: -1em;
+    margin-left: 1.5em;
+    color: rgb(187, 183, 183);
   }
 
   .leistungen {
     background-color: transparent;
-    margin-left: -2em;
-    margin-right: 2em;
-    padding-left: 3em;
+    border-radius: 20em;
+    padding-left: 1.2em;
+    padding-right: -1em;
+    margin-left: 2em;
+    color: rgb(187, 183, 183);
   }
 
   .bildergallerie {
     background-color: transparent;
-    margin-left: -2em;
-    margin-right: 2em;
-    padding-left: 3em;
+    border-radius: 20em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-left: 1em;
+    color: rgb(187, 183, 183);
   }
 
   .stellenangebote {
     background-color: transparent;
-    margin-left: -2em;
-    margin-right: 2em;
-    padding-left: 3em;
+    border-radius: 20em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-left: 1em;
+    color: rgb(187, 183, 183);
   }
 
   .kontakt {
     background-color: transparent;
-    margin-left: -2em;
-    margin-right: 3em;
-    padding-left: 3em;
+    border-radius: 20em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-left: 1em;
+    color: rgb(187, 183, 183);
   }
 
   .dropdown-menu {
@@ -103,34 +132,42 @@ nav {
 
   .links {
     background-color: transparent;
-    margin-left: -2em;
-    margin-right: 2em;
-    padding-left: 3em;
+    border-radius: 20em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-left: 1em;
+    color: rgb(187, 183, 183);
   }
 
   .datenschutz {
     background-color: transparent;
-    margin-left: -2em;
-    margin-right: 2em;
-    padding-left: 3em;
+    border-radius: 20em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-left: 1em;
+    color: rgb(187, 183, 183);
   }
 
   .impressum {
     background-color: transparent;
-    margin-left: -2em;
-    margin-right: 2em;
-    padding-left: 3em;
+    border-radius: 20em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-left: 1em;
+    color: rgb(187, 183, 183);
   }
 
 
   a {
     text-decoration: none;
-    color: black;
+    color: rgb(187, 183, 183);
   }
 
    /* Container Suche */
    #suche, .suche {
-    outline: black;
+    width: 15em;
+    height: auto;
+    outline: rgb(187, 183, 183);
     margin-left: -0.2em;
   }
   .suchen {
@@ -144,14 +181,14 @@ nav {
     height: auto;
     float: left;
     padding-bottom: 1em;
-    margin-left: 6.8em;
+    margin-left: 8em;
     border-radius: 10em;
   }
 
     .text {
-        width: 50em;
+        width: 90em;
         height: auto;
-        margin-left: 7em;
+        margin-left: 0em;
     }
   }
 
