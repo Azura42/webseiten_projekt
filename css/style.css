@@ -1,4 +1,4 @@
-@media (max-width: 800em){
+@media (max-width: 500em){
   body {
       width: 100%;
       height: auto;
@@ -7,9 +7,12 @@
       font-family: Georgia;
       font-size: medium;
       line-height: 1.5em;
-      padding-left: 3em;
-      margin-top: 5em;
+      margin-top: 3em;
+      margin-left: -4em;
       color: rgb(187, 183, 183);
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
   }
 
   header {
@@ -18,43 +21,38 @@
   }
 
   main {
-    background-color: transparent;
     width: 100%;
     height: 60%;
+    background-color: transparent;
   }
 
   footer {
     width: 100%;
     height: 10%;
-    padding-top: 20%;
+    padding-top: 0.2em;
   }
 }
 
 @media (min-width: 5em){
-    .bunner {
-      margin-left: -0.5em;
-    }
+  .logo{
+    background-color: transparent;
+      width: 6em;
+      height: auto;
+      float: left;
+      margin-bottom: 2em;
+      border-radius: 20px;
+  }
 
-    .logo{
+  .firmenname1 {
       background-color: transparent;
-        width: 6em;
-        height: auto;
-        float: left;
-        margin-bottom: 2em;
-        border-radius: 20px;
-    }
-
-    .firmenname1 {
-        background-color: transparent;
-        width: 100em;
-        height: auto;
-        float: left;
-        margin-left: 3em;
-        margin-bottom: 1em;
-        font-size: xx-large;
-        position: absolute;
-    }
-}
+      width: 82em;
+      height: auto;
+      float: left;
+      margin-left: 4em;
+      margin-bottom: 1em;
+      font-size: xx-large;
+      position: absolute;
+  }
 
   /* Menue style */
 
@@ -162,7 +160,6 @@
     text-align: center;
   }
 
-
   a {
     text-decoration: none;
     color: rgb(187, 183, 183);
@@ -172,42 +169,44 @@
    #suche, .suche {
     width: 15em;
     height: auto;
-    margin-left: -0.2em;
+    margin-left: 1%;
   }
   .suchen {
     margin-left: 7em;
     padding-top: 2em;
   }
+}
 
-@media(min-width: 40em){
+@media(min-width: 82em){
   .picshome {
-    width: 50em;
+    width: 82em;
     height: auto;
     float: left;
     padding-bottom: 1em;
-    margin-left: 8em;
+    margin-left: 3em;
     border-radius: 10em;
   }
 
   .text {
-      width: 90em;
+      width: 82em;
       height: auto;
       margin-left: 0em;
   }
+
+  .inhalt {
+      background-color: transparent;
+      width: 100%;
+      height: auto;
+      float: left;     
+  }
 }
 
-
-.inhalt {
-    background-color: transparent;
-    width: 100%;
-    height: auto;
-    float: left;     
-}
-
-#unten {
-    font-size: large;
-    margin-left: 40em;
-    line-height: 5em;
+@media (min-width: 5em) {
+  #unten {
+      font-size: large;
+      margin-left: 25em;
+      line-height: 5em;
+  }
 }
 
 @media (min-width: 20em){
@@ -218,23 +217,22 @@
       margin-left: 13em;
       padding-top: 5em;
   }
-}
 
-.title {
-    font-weight: bold;
-}
+  .title {
+      font-weight: bold;
+  }
 
-.email {
-    color: blue;
-    text-decoration-line: underline;
-    tab-size: 50%;
-}
+  .email {
+      color: blue;
+      text-decoration-line: underline;
+      tab-size: 50%;
+  }
 
-.name {
-    color: blue;
-    text-decoration-line: underline;
+  .name {
+      color: blue;
+      text-decoration-line: underline;
+  }
 }
-
 /* für leistungen */
 ul {
     margin-left: 5%;
@@ -383,7 +381,7 @@ ul {
   }
   /* stellenangebote */
   .picsstelle{
-    width: 50em;
+    width: 82em;
     height: auto;
     border-radius: 2em;
   }
@@ -400,19 +398,28 @@ ul {
   }
 
   /* kontaktformular */
-  @media (min-width: 50em){
-    .kontakt_formular, .feld_gruppe  {
+    .kontakt_formular1 {
       margin-top: 2em;
       margin-bottom: 2em;
-      margin-left: 0.3em;
+      margin-left: 7em;
+      padding-right: 40em;
     }
+
+    .feld_gruppe {
+      margin-top: 2em;
+      margin-bottom: 2em;
+    }
+
+    .input_feld{
+      height: 20em;
+    }
+  
     .absenden {
       margin-top: -0.5em;
       margin-bottom: 2em;
       margin-left: 0.3em;
     }
 
-  }
   /* Links */
   .verlinkung {
     text-decoration: underline;
@@ -425,6 +432,11 @@ ul {
   }
 
   /* Datenschutz */
+ @media (max-width: 40em){
+   .text_mit_verlinkungen{
+     width: 10%;
+   }
+ }
 
   /* Impressum */
   .impressumdaten{
