@@ -74,6 +74,7 @@
     height: 3em;
     background-color: transparent;
     border-radius: 20em;
+    margin-left: -0.3em;
     margin-right: 0.5em; 
     color: rgb(187, 183, 183);
     text-align: center;
@@ -84,6 +85,7 @@
     height: 3em;
     background-color: transparent;
     border-radius: 20em;
+    margin-left: -0.3em;
     margin-right: 0.5em; 
     color: rgb(187, 183, 183);
     text-align: center;
@@ -94,6 +96,7 @@
     height: 3em;
     background-color: transparent;
     border-radius: 20em;
+    margin-left: -0.3em;
     margin-right: 0.5em; 
     color: rgb(187, 183, 183);
     text-align: center;
@@ -104,6 +107,7 @@
     height: 3em;
     background-color: transparent;
     border-radius: 20em;
+    margin-left: -0.3em;
     margin-right: 0.5em; 
     color: rgb(187, 183, 183);
     text-align: center;
@@ -114,6 +118,7 @@
     height: 3em;
     background-color: transparent;
     border-radius: 20em;
+    margin-left: -0.3em;
     margin-right: 0.5em; 
     color: rgb(187, 183, 183);
     text-align: center;
@@ -135,6 +140,7 @@
     height: 3em;
     background-color: transparent;
     border-radius: 20em;
+    margin-left: -0.3em;
     margin-right: 0.5em; 
     color: rgb(187, 183, 183);
     text-align: center;
@@ -145,6 +151,7 @@
     height: 3em;
     background-color: transparent;
     border-radius: 20em;
+    margin-left: -0.3em;
     margin-right: 0.5em; 
     color: rgb(187, 183, 183);
     text-align: center;
@@ -155,6 +162,7 @@
     height: 3em;
     background-color: transparent;
     border-radius: 20em;
+    margin-left: -0.3em;
     margin-right: 0.5em; 
     color: rgb(187, 183, 183);
     text-align: center;
@@ -228,10 +236,6 @@
       tab-size: 50%;
   }
 
-  .name {
-      color: blue;
-      text-decoration-line: underline;
-  }
 }
 /* für leistungen */
 ul {
