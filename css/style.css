@@ -34,6 +34,7 @@
 }
 
 @media (min-width: 5em){
+
   .logo{
     background-color: transparent;
       width: 6em;
@@ -45,7 +46,7 @@
 
   .firmenname1 {
       background-color: transparent;
-      width: 82em;
+      width: 82%;
       height: auto;
       float: left;
       margin-left: 4em;
@@ -406,7 +407,6 @@ ul {
       margin-top: 2em;
       margin-bottom: 2em;
       margin-left: 7em;
-      padding-right: 40em;
     }
 
     .feld_gruppe {
